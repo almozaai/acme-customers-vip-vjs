@@ -56,7 +56,7 @@ button.addEventListener('click', (ev)=>{
 })
 
 
-
+//This not working because create ul with click button 'create' so need create ul, li and button in index.html first then it work
 buttonDelete.addEventListener('click', ev => {
   ev.target.parentNode.parentNode.removeChild(ev)
 

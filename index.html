@@ -1,23 +1,26 @@
 <html>
   <head>
-
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Acme Customers VIP</h1>
+    <h1>Acme Customers <span>VIP</span></h1>
+    <div class="formBox">
+      <h2>Customer Input Form</h2>
+      <form>
+        <label class="name">Name</label>
+        <input name='name' class="nameBox" type='text'/>
+        <br>
+        <label class="email">Email</label>
+        <input name='email' class="emilBox" type='email'/>
+        <br>
+        <label class="radio">IsVIP</label>
+        <input name='isVip' class="radioBox" type='radio'/>
+        <br>
+        <button>Create</button>
+      </form>
+    </div>
 
-    <form>
-      <label>Name</label>
-      <input name='name' type='text'/>
-      <br>
-      <label>Email</label>
-      <input name='email' type='email'/>
-      <br>
-      <label>IsVIP</label>
-      <input name='isVip' type='radio'/>
-      <br>
-      <button>Create</button>
-    </form>
-    <div>
+    <div class="vips">
       <p>VIPS</p>
     </div>
   </body>

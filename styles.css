@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 span {
+  background-color: rgb(68, 108, 238);
+  color: white;
+
+}
+h1{
+  padding: 10px;
+}
+.formBox {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.name, .email, .radio {
+  padding-right: 100px;
+  /* margin-top: 30px; */
+}
+
+.nameBox, .emilBox {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.radioBox {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  width: 50px;
+  height: 30px;
+}
+
+.vips{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
